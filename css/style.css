@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+.col3Side{
+    color: white;
+    padding: 0;
+    border-right: 1px solid black;
+    background: #4d4d4d;
+}
+.col9Main{
+    padding: 0;
+}
+.mainDiv{
+    padding-right: 8px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    
+    
+}
+.selfi{
+    border: 1px solid black;
+    padding: 70px;
+    border-radius: 50%;
+    border-color: white;
+}
+.subDiv1{
+    padding: 20px;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.subDiv2 li{
+    margin: 35px 0px
+}
+.editRow{
+    --bs-gutter-x: 0rem !important;
+}
+.topDiv img{
+    width: 100%;
+    height:640px;
+}
+.topDiv{
+    position: relative;
+}
+.topDiv::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #ffcc00;
+    width: 100%;
+}
+.topDiv::after{
+    content: "";
+    position: absolute;
+    padding: 5px;
+    background: #ffcc00;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.menuList{
+    width: 100%;
+}
+.menuList ul{
+    margin: 30px auto;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0;
+}
+.menuList li{
+    margin: auto 15px;
+    padding-bottom: 5px;
+}
+.menuList li:hover{
+    border-bottom: 1px solid red;
+}
+.imgGrid .row{
+    justify-content: center !important;
+    --bs-gutter-x: 0rem !important;
+}
+
+
+
+.experiance{
+    background: #4d4d4d;
+    color: white;
+}
