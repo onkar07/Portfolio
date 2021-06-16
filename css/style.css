@@ -13,13 +13,31 @@
 .col9Main{
     padding: 0;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer ul{
+    display: inline-flex;
+}
+footer ul li{
+    margin: auto 20px;
+}
+.fixedDiv{
+    position: fixed;
+    width: 17%;
+}
 .mainDiv{
     padding-right: 8px;
-    position: fixed;
     top: 0;
     bottom: 0;
+    align-items: center;
+    justify-content: center;
     
-    
+}
+.selfName{
+    margin-top: 20px;
 }
 .selfi{
     border: 1px solid black;
@@ -28,12 +46,15 @@
     border-color: white;
 }
 .subDiv1{
-    padding: 20px;
+    padding: 20px auto 10px auto;
 }
 
 ul{
     padding: 0;
     list-style-type: none;
+}
+.subDiv2 ul{
+    margin-top: 20px;
 }
 .subDiv2 li{
     margin: 35px 0px
@@ -88,8 +109,102 @@ ul{
 }
 
 
-
+.expHeading{
+    padding: 30px;
+}
+.expHeading h1{
+    font-weight: 700 !important;
+}
 .experiance{
     background: #4d4d4d;
     color: white;
+}
+.Tools{
+    color: #ffcc00;
+}
+.expDetail{
+    align-items: center;
+    justify-content: center;
+}
+.expDetail h4{
+    font-weight: 400;
+}
+.expDetail h3{
+    font-weight: 700 !important;
+}
+.expDetail li{
+    margin: 30px auto;
+}
+
+
+/* contact */
+.contact{
+    margin: 100px 20px 50px;
+}
+.contact input, textarea{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 5px;
+    font-family: 'lato' ,sans-serif;
+    color: #151515;
+}
+label{
+    font-family: 'lato' ,sans-serif;
+    color: #151515;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style:inherit;
+    margin: 10px 5px;
+}
+.contact h1{
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: 700;
+    color: tomato;
+    font-weight: 400;
+    margin: 0px auto 30px;
+}
+.button button{
+    font-family: 'lato' ,sans-serif;
+    padding: 8px 50px;
+    background-color: tomato;
+    color: white;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.inEmail, .inName, .inMessage{
+    padding: 20px;
+    margin: 20px auto;
+}
+textarea{
+    padding: 3rem;
+}
+.review{
+    display: inline-flex;
+    
+}
+.review img{
+    border-radius: 50%;
+    align-items: center;
+}
+
+.gridNew{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer{
+    width: 100%;
+    padding: 50px;
+    height: 50px !important;
+    background-color: #4d4d4d;
 }
