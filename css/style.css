@@ -29,7 +29,7 @@ footer ul li{
     width: 17%;
 }
 .mainDiv{
-    padding-right: 8px;
+    padding-right: 10px;
     top: 0;
     bottom: 0;
     align-items: center;
@@ -39,19 +39,21 @@ footer ul li{
 .selfName{
     margin-top: 20px;
 }
-.selfi{
-    border: 1px solid black;
-    padding: 70px;
+.selfi img{
     border-radius: 50%;
     border-color: white;
 }
+
 .subDiv1{
-    padding: 20px auto 10px auto;
+    /* margin: 50px auto 10px auto; */
 }
 
 ul{
     padding: 0;
     list-style-type: none;
+}
+.subDiv2{
+    top: 50%;
 }
 .subDiv2 ul{
     margin-top: 20px;
